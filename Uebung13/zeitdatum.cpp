@@ -31,11 +31,11 @@ Zeitdatum::Zeitdatum(int neuStunde, int neuMinute)
 
 
 // Allgemein
-Zeitdatum::Zeitdatum(int neuJahr, int neuMonat, int neuTag, int neuStunde, int neuMinute)
+Zeitdatum::Zeitdatum(int neuJahr, int neuMonat, int neuTag, int neuStunde, int neuMinute) : Datum(neuTag, neuMonat, neuJahr)
 {
-	setJahr(neuJahr);
-	setMonat(neuMonat);
-	setTag(neuTag);
+	//setJahr(neuJahr);
+	//setMonat(neuMonat);
+	//setTag(neuTag);
 	
 	stunde = neuStunde;
 	minute = neuMinute;

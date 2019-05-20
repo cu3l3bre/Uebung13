@@ -57,7 +57,7 @@ int main()
 	zeit.setTag(eingabeTag);
 
 
-	cout << "Geben Sie die Stunden ein [0-24]: ";
+	cout << "Geben Sie die Stunden ein [0-23]: ";
 	cin >> eingabeStunde;
 	zeit.setStunde(eingabeStunde);
 

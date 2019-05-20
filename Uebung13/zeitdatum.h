@@ -32,5 +32,9 @@ public:
 	// andere Methoden
 	void zeigeUhrzeit();
 	void zeigeDatumUhrzeit();
+	void zeigeUhrzeitAmericanStyle();
+	void zeigeDatumUhrzeitAmericanStyle();
+
+	void getZeitJetzt();
 
 };

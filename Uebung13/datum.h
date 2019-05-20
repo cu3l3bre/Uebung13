@@ -34,6 +34,10 @@ public:
 	// andere Methoden
 	void zeigeDatum();
 	void zeigeDatumAmericanStyle();
+	
+	void getDatumHeute();
+
+
 
 
 };
